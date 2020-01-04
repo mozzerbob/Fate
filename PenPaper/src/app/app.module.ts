@@ -17,6 +17,6 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [PlayAreaComponent]
 })
 export class AppModule { }
