@@ -2,17 +2,15 @@
 
 namespace Fate.Models
 {
-	public class Aspect
+	public class Aspect : Entity
 	{
-		public long Id;
-		public string Name;
-		public string Desc;
-		public long Type;
-		public long Assignee;
-		public bool Compeled;
-		public bool Activated;
-		public DateTime CreateDate;
-		public DateTime ActivatedDate;
-		public DateTime CompleteDate;
+		public string Desc { get; set; }
+		public long Type { get; set; }
+		public long Assignee { get; set; }
+		public bool Compeled { get; set; }
+		public bool Activated { get; set; }
+		public DateTime CreateDate { get; set; }
+		public DateTime ActivatedDate { get; set; }
+		public DateTime CompleteDate { get; set; }
 	}
 }

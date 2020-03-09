@@ -1,9 +1,6 @@
 ﻿namespace Fate.Models
 {
-    public class Player
+    public class Player : StoryEntity
     {
-        public long Id;
-        public string Name;
-        public long[] Aspect;
     }
 }

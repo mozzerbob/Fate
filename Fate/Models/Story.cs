@@ -1,11 +1,8 @@
 ﻿namespace Fate.Models
 {
-    public class Story
+    public class Story : StoryEntity
     {
-        public long Id;
-        public string Name;
-        public long[] Aspect;
-        public bool IsComplete;
-        public int priority;
+        public bool IsComplete { get; set; }
+        public int Priority { get; set; }
     }
 }

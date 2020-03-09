@@ -1,10 +1,7 @@
 ﻿namespace Fate.Models
 {
-    public class Enviroment
+    public class Enviroment : StoryEntity
     {
-        public long Id;
-        public string Name;
-        public long[] Aspect;
     }
 }
     
